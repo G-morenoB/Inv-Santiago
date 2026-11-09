@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fbf6ee;
+  --color-sand: #f1e7d6;
+  --color-sage: #8d9c7a;
+  --color-sage-dark: #5f7050;
+  --color-gold: #b08d3c;
+  --color-bark: #a07a5a;
+  --font-script: "Great Vibes", cursive;
+  --font-serif: "Lora", serif;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-cream); color: var(--color-bark); font-family: var(--font-serif); }
+
+@keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+.animate-floaty { animation: floaty 4s ease-in-out infinite; }

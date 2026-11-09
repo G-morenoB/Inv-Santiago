@@ -1,0 +1,1 @@
+Pon aqui tus fotos: foto1.jpg ... foto6.jpg (ver src/config/invitation.js)
