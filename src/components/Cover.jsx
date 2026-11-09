@@ -10,11 +10,10 @@ export default function Cover({ onOpen, hidden }) {
       }`}
     >
       <FloralCorners />
-
+      <Lion className="relative w-44 sm:w-56 animate-floaty" />
       <p className="relative mt-4 tracking-[0.3em] text-xs uppercase text-gold">Estás invitado</p>
       <h1 className="relative font-script text-6xl sm:text-7xl text-sage-dark mt-2">{invitation.name}</h1>
       <p className="relative mt-2 text-sm text-bark">{invitation.subtitle}</p>
-            <Lion className="relative w-44 sm:w-56 animate-floaty" />
       <button
         onClick={onOpen}
         className="relative mt-10 rounded-full border border-gold bg-gold px-8 py-3 text-sm tracking-widest uppercase text-white shadow-lg transition hover:bg-gold/90 active:scale-95"
