@@ -27,6 +27,8 @@ export const invitation = {
     "/gallery/foto4.jpg",
     "/gallery/foto5.jpg",
     "/gallery/foto6.jpg",
+    "/gallery/foto7.jpg",
+    "/gallery/foto8.jpg",
   ],
 
   // Confirmación por WhatsApp (código de país + número, sin + ni espacios)
