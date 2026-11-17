@@ -24,7 +24,6 @@ export default function Godparents() {
         </p>
         <div className="mt-10 space-y-10">
           <Group title="Mis padrinos" names={g.parents} />
-          <Group names={g.godparents} />
         </div>
       </Reveal>
     </section>
