@@ -20,7 +20,7 @@ export default function Countdown() {
   }, []);
 
   return (
-    <section className="px-6 py-20 text-center">
+    <section className="bg-sand/50 px-6 py-20 text-center">
       <Reveal>
         <h3 className="font-script text-5xl text-sage-dark">Falta muy poco</h3>
         <div className="mx-auto mt-8 grid max-w-md grid-cols-4 gap-3">

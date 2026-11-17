@@ -14,9 +14,9 @@ export default function Calendar() {
   const cells = [...Array(first).fill(null), ...Array.from({ length: total }, (_, i) => i + 1)];
 
   return (
-    <section className="bg-sand/50 px-6 py-20 text-center">
+    <section className="bg-cream px-6 py-20 text-center">
       <Reveal className="mx-auto max-w-sm">
-        <h3 className="font-script text-5xl text-sage-dark">Guarda al fecha</h3>
+        <h3 className="font-script text-5xl text-sage-dark">Guarda la fecha</h3>
         <p className="mt-2 capitalize tracking-widest text-gold">{monthName} {year}</p>
         <div className="mt-6 grid grid-cols-7 gap-y-2 rounded-2xl bg-white/70 p-4 shadow-sm">
           {DAYS.map((x, i) => (

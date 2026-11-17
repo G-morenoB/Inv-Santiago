@@ -11,6 +11,7 @@ import Reception from "./components/Reception";
 import Gallery from "./components/Gallery";
 import Confirm from "./components/Confirm";
 import Footer from "./components/Footer";
+import Godparents from "./components/Godparents";
 
 export default function App() {
   const [opened, setOpened] = useState(false);
@@ -53,6 +54,7 @@ export default function App() {
       <main>
         <Hero />
         <Message />
+        <Godparents />
         <Countdown />
         <Calendar />
         <Reception />
