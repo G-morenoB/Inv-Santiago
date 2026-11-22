@@ -51,7 +51,7 @@ export const invitation = {
 
   // Confirmación por WhatsApp (código de país + número, sin + ni espacios)
   whatsapp: "7811080921",
-  whatsappText: "¡Hola! Confirmo mi asistencia al bautizo y cumpleaños de Noe Santiago 🦁",
+  whatsappText: "¡Hola! Confirmo mi asistencia al bautizo y primer cumpleaños de Santiago Noel🦁",
 
   closing: "¡Te esperamos!",
 };
