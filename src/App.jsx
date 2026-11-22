@@ -58,7 +58,6 @@ export default function App() {
         <Countdown />
         <Calendar />
         <Reception />
-        <Gallery />
         <Confirm />
         <Footer />
       </main>
