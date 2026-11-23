@@ -26,10 +26,15 @@ export const invitation = {
   },
 
 
-  godparents: {
-    parents: ["Fernanda Berdeja Guinto", "Víctor Daniel Guinto Parra", "Nelva Luz Garay Benítez", "Erick Antonio Espíritu Corona"],
+  family: {
+    parents: ["Fátima Berdeja Guinto", "Noel Garay Benítez"],
+    godparents: [
+      "Fernanda Berdeja Guinto",
+      "Víctor Daniel Guinto Parra",
+      "Nelva Luz Garay Benítez",
+      "Erick Antonio Espíritu Corona",
+    ],
   },
-
   // Tu canción: coloca el archivo en public/music/song.mp3
   music: "/music/song.mp3",
 

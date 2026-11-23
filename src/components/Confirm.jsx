@@ -66,7 +66,7 @@ export default function Confirm() {
   const link = "underline underline-offset-4 text-bark/80 hover:text-sage-dark";
 
   return (
-    <section className="bg-sand/50 px-6 py-20 text-center">
+    <section className="bg-cream px-6 py-20 text-center">
       <Reveal className="mx-auto max-w-md">
         {saved && !editing ? (
           <>
