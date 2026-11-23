@@ -14,8 +14,7 @@ function Column({ title, names }) {
             key={n}
             className="text-balance text-xs uppercase leading-snug tracking-wider text-bark sm:text-sm"
           >
-{title === "Papás" && index === 1 ? `✝ ${n}` : n}
-          </p>
+{title === "Papás" && index === 1 ? `† ${n}` : n}          </p>
         ))}
       </div>
     </div>
