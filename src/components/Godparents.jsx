@@ -7,13 +7,14 @@ function Column({ title, names }) {
       <h4 className="pl-[0.25em] font-serif text-lg uppercase tracking-[0.25em] text-sage-dark sm:text-xl">
         {title}
       </h4>
+
       <div className="mt-5 space-y-3">
-        {names.map((n) => (
+        {names.map((n, index) => (
           <p
             key={n}
             className="text-balance text-xs uppercase leading-snug tracking-wider text-bark sm:text-sm"
           >
-            {n}
+{title === "Papás" && index === 1 ? `✝ ${n}` : n}
           </p>
         ))}
       </div>
